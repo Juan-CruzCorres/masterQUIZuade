@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+
+    <title>cambio climatico quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <!--iconos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <!-- iniciar Quiz button -->
+    <div class="start_btn"><button>comenzar quiz!</button></div>
+
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info-title"><span>Algunas reglas de este Quiz</span></div>
+        <div class="info-list">
+            <div class="info">1. tendras solo <span>15 segundos</span> por pregunta</div>
+            <div class="info">2. solo una oportunidad para elegir la opcion correcta</div>
+            <div class="info">3. no podras elegir tu respuesta una vez pasados los 15 segundos</div>
+            <div class="info">4. no podras salir del quiz una vez iniciado</div>
+            <div class="info">5. obtendras 1 punto por cada respuesta   correcta</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">terminar Quiz</button>
+            <button class="restart">Continuar </button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Cambio climatico quiz</div>
+            <div class="timer">
+                <div class="time_left_txt">tiempo restante</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- insertar preguntas -->
+            </div>
+            <div class="option_list">
+                <!-- insertar opciones -->
+            </div>
+        </section>
+
+        <!-- footer  Quiz z -->
+        <footer>
+            <div class="total_que">
+
+            </div>
+            <button class="next_btn">siguiente pregunta</button>
+        </footer>
+    </div>
+
+    <!-- Resultados -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Felicitaciones completaste el quiz!</div>
+        <div class="score_text">
+            <!-- puntaje -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Reiniciar quiz</button>
+            <button class="quit">Terminar Quiz</button>
+        </div>
+    </div>
+
+    <!-- preguntas y respuestas-->
+    <script src="js/questions.js"></script>
+
+    <!-- codigo javascript -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
